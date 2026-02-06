@@ -6,7 +6,7 @@ from src.logger import logging
 
 def error_message_details(error,error_detail:sys):
     ## first two return are not important but the thrid exc_tb has all info needed
-    print('sfsdfsdf')
+ 
     _,_,exc_tb = error_detail.exc_info()
     file_name = exc_tb.tb_frame.f_code.co_filename
    
